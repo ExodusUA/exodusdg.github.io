@@ -1,0 +1,399 @@
+@import 'adaptive.css';
+
+/*HEADER*/
+
+.header {
+    background: url(../img/header-background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+}
+
+.header-menu {
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 10vw;
+    padding-top: 2vw;
+}
+
+.nav-item {
+    margin-right: 3vw;
+    list-style-type: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+    transition: 0.3s;
+}
+
+.nav-menu ul>li>img {
+width: 17vw;
+}
+
+.menu-text {
+    padding-left: 15vw;
+}
+
+.header-cont-button {
+    width: 15vw;
+    height: 4vw;
+    background: #4C0DFF;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    border-radius: 3vw;
+}
+.header-cont-button:hover {
+    box-shadow: 0px 0px 21px #4C0DFF;
+}
+.fa-address-book {
+    font-size: 1.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.3vw;
+}
+
+.nav-menu-text {
+    padding-top: 2vw;
+    cursor: pointer;
+}
+.menu-hr {
+    height: 0.1vw;
+    background: #FF1F70;
+    border-radius: 1vw;
+    width: 0%;
+    bottom: 0.3vw;
+    position: relative;
+    transition: 0.3s;
+}
+.nav-menu-text:hover .menu-hr {
+    width: 100%;
+}
+.nav-menu-text:hover {
+    color: #FF1F70;
+}
+.title-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+    color: #FF1F70;
+}
+.title-text span {
+    color: #4C0DFF;
+}
+.header-title {
+    position: relative;
+    left: 12.5vw;
+    top: 6vw;
+}
+.vertborder {
+    transform: rotate(-90deg);
+    height: 0.5vw;
+    width: 4.5vw;
+    border-radius: 2vw;
+    background: #FF1469;
+    position: relative;
+    left: 11.5vw;
+    top: 10.5vw;
+    transition: 0.4s;
+}
+
+.header-desc-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    color: white;
+    width: 40vw;
+    position: relative;
+    left: 15vw;
+    top: 8vw;
+}
+.header-desc:hover .vertborder {
+    -webkit-box-shadow: 0px 0px 23px 3px rgba(255,20,105,1);
+-moz-box-shadow: 0px 0px 23px 3px rgba(255,20,105,1);
+box-shadow: 0px 0px 23px 3px rgba(255,20,105,1);
+}
+
+.fa-globe-americas {
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+.lang-switch {
+    color: white;
+    position: relative;
+    left: 2vw;
+    font-size: 1vw;
+    top: 20vw;
+    cursor: pointer;
+}
+.lang-switch:hover {
+    color: #FF1469;
+    transition: 0.4s;
+} 
+
+/*MY SKILLS*/
+
+.skills {
+    width: 100vw;
+    height: 50vw;
+}
+.skills-title {
+    position: relative;
+    left: 12.5vw;
+    top: 3vw;
+}
+.skills-cards {
+    width: 90vw;
+    margin: 0 auto;
+    padding-top: 5vw;
+    padding-left: 8vw;
+}
+
+.skill-card {
+   background: white;
+   border: 1px solid #D8D8D8;
+   border-radius: 2.5vw;
+   height: 30vw;
+   width: 30vw;
+   margin-right: 7vw;
+   transition: 0.4s;
+}
+.skill-card:hover {
+    border: 1px solid #4C0DFF;
+}
+.skill-card-title {
+    font-size: 1.4vw;
+    color: black;
+    width: 20vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.skill-card img {
+    margin: 0 auto;
+    position: relative;
+    padding-top: 4vw;
+    width: 4vw;
+}
+
+.skill-card-text {
+    width: 18vw;
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+}
+.skill-card-title-2 {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #4C0DFF;
+}
+.skill-card-text-2 {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1vw;
+    width: 18vw;
+    text-align: center;
+    padding-bottom: 1.5vw;
+}
+
+/*WORKS*/
+.works {
+    background: linear-gradient(332.58deg, #3A00DD 0%, #06011E 100%);
+    height: 55vw;
+    width: 100vw;
+}
+
+.works-title {
+    position: relative;
+    left: 12.5vw;
+    top: 3vw;
+}
+.work-category button {
+    background: #FF1469;
+    color: white;
+    border: 0.1vw solid transparent;
+    border-radius: 5vw;
+    padding: 0.5vw 2vw 0.5vw  2vw;
+    font-weight: 400;
+    font-size: 1.2vw;
+    transition: 0.4s;
+    margin-right: 1vw;
+}
+
+.work-category button:hover {
+    background: white;
+    color: black;
+    border: 0.1vw solid #DFDFDF;
+}
+.work-category {
+    position: relative;
+    left: 12.5vw;
+    top: 6vw;
+}
+
+.work-cards {
+    position: relative;
+    left: 12.5vw;
+    margin-top: 2vw;
+    top: 10vw;
+}
+.work-card img {
+    width: 25vw;
+    transition: 0.4s;
+    position: relative;
+    border-radius: 1.5vw;
+    cursor: pointer;
+}
+.work-card {
+    position: relative;
+    transition: 0.3s;
+    margin-right: 2vw;
+}
+.work-card:hover  .work-img {
+    filter: brightness(0.4);
+}
+.card-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    position: relative;
+    font-size: 1.5vw;
+    bottom: 0vw;
+    width: 18vw;
+    right: 6vw;
+    display: none;
+}
+.card-text-desc {
+    font-size: 1.3vw; 
+}
+
+.work-card:hover .card-text {
+    display: inline;
+    position: fixed;
+}
+
+.work-card:hover {
+    transform: rotate(2deg) scale(1.1);
+}
+.card-done img {
+    width: 2.0vw;
+    position: absolute;
+    left: 23.5vw;
+    display: none;
+    bottom: 12.5vw;
+    transition: 0.3s;
+}
+
+.work-card:hover .card-done img {
+    display: inline;
+}
+.work-img {
+    width: 20vw;
+    height: 14vw;
+}
+
+/*CONTACTS*/
+.contacts {
+    width: 100vw;
+    height: 40vw;
+}
+.contacts-title {
+    position: relative;
+    left: 5vw;
+    top: 3vw;
+}
+
+.contacts-cards {
+    position: relative;
+    left: 5vw;
+    top: 15vw;
+    padding-bottom: 35vw;
+}
+
+.contacts-card {
+    border-radius: 2vw;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.25);
+    width: 27vw;
+    height: 13vw;
+    margin-right: 4vw;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contacts-card:hover {
+    box-shadow: 0px 0px 64px rgba(255, 20, 105, 0.76);
+}
+.contact-logo {
+    position: relative;
+    left: 4vw;
+    top: 4vw;
+    width: 20vw;
+}
+
+.contact-card-text {
+    color: #979797;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 3vw;
+    left: 17vw;
+    font-size: 1.3vw;
+}
+.cont-platform-ico {
+    width: 2.5vw;
+    position: relative;
+    left: 25.3vw;
+    bottom: 8.5vw;
+}
+
+/*FOOTER*/
+.footer {
+    background: #0B0134;
+    width: 100vw;
+    height: 25vw;
+}
+.footer-left {
+    position: relative;
+    top: 5vw;
+}
+.footer-logotype {
+    width: 20vw;
+    position: relative;
+    left: 10vw;
+    top: 0vw;
+}
+.footer-contacts img {
+    width: 3vw;
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+    margin-right: 1vw;
+}
+.footer-right {
+    position: relative;
+    left: 65vw;
+    bottom: 2vw;
+    
+}
+.footer-right ul>li {
+    list-style-type: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+
+.footer-navigation {
+    color: #FF1469 !important;
+    font-size: 1.8vw !important;
+
+}

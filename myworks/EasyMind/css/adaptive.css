@@ -1,0 +1,134 @@
+@media (max-width: 1600px) { 
+    .header-down-button {
+        padding-left: 50.5vw !important;
+}
+.header-title-button {
+	left: 6.6vw !important;
+}
+}
+@media (max-width: 1400px) { 
+    .header-down-button {
+        padding-left: 52.5vw !important;
+}
+.header-title {
+	left: 31vw;
+}
+}
+@media (max-width: 1200px) { 
+    .header-title-button {
+        padding: 7px 30px 7px 30px !important;
+    }
+    .header-down-button {
+        padding-top: 12vw !important;
+        padding-left: 52.5vw !important;
+    }
+    .card-counter {
+        top: 4.8vw !important;
+        left: 12.5vw !important;
+    }
+    .review-body-line {
+        bottom: 0.9vw !important;
+    }
+}
+@media (max-width: 1024px) { 
+    .header-title-button {
+        padding: 7px 30px 7px 30px !important;
+        left: 7vw !important;
+    }
+    .header-down-button {
+        padding-top: 12vw !important;
+        padding-left: 52.5vw !important;
+    }
+    .card-counter {
+       
+        height: 3.5vw !important;
+        width: 3.5vw !important;
+    }
+    .card-counter p {
+        position: relative;
+        top: 0.3vw !important;
+    }
+}
+@media (max-width: 900px) { 
+    .header-title-button {
+        padding: 6px 27px 6px 27px !important;
+    }
+    .header-title-button {
+        left: 7vw !important;
+    }
+    .header-down-button {
+        padding-top: 12vw !important;
+    }
+    .card-counter {
+        left: 12.5vw !important;
+    }
+    .card-counter p {
+        position: relative;
+        top: 0.3vw !important;
+    }
+}
+@media (max-width: 800px) {
+    @keyframes arrow-anim {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .card-counter {
+        top: 3.7vw !important;
+        left: 12.5vw !important;
+    }
+    .review-body-line {
+        bottom: 1.9vw !important;
+    }
+    .contact__card {
+        border-radius: 0px 3vw 0px 3vw !important;
+        -moz-border-radius: 0px 3vw 0px 3vw !important;
+        -webkit-border-radius: 0px 3vw 0px 3vw !important;
+    }
+    .header-down-button {
+        padding-left: 52.5vw !important;
+    }
+}
+.header-body {
+    right: 5.5vw !important;
+}
+@media (max-width: 400px) {
+.header-title-button {
+    padding: 5px 20px 5px 20px !important;
+    left: 2.5vw !important;
+}
+.body-text-desc img {
+    bottom: 25vw !important;
+}
+.card-counter {
+    display: none;
+}
+.review-desc {
+    bottom: 3.5vw !important;
+}
+.review-body-line {
+    bottom: 6.0vw !important;
+}
+.stats__card-line {
+    top: 4.8vw !important;
+}
+.card-text {
+    top: 7vw !important;
+}
+.contacts__card-desc {
+    top: 1vw !important;
+}
+.body-text-desc span {
+    max-height: 20vw !important;
+    display: inline-block !important;
+}
+}

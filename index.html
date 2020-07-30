@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Raleway:wght@500;800&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"
+        integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e32c435e9.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exodus` - Portfolio</title>
+</head>
+
+<body style="overflow-x: hidden;">
+    <!--HEADER-->
+    <section class="header">
+        <div class="container-fluid">
+            <div class="header-menu">
+                <navbar class="nav-menu">
+                    <ul class="d-flex align-items-center">
+                        <li class="nav-item"><img src="img/logotype.png" alt=""></li>
+                        <div class="menu-text d-flex align-items-center">
+                            <li class="nav-item nav-menu-text">MAIN
+                                <hr class="menu-hr">
+                            </li>
+                            <a style="text-decoration: none;" href="#id-skills"><li class="nav-item nav-menu-text">MY SKILLS
+                                <hr class="menu-hr">
+                            </li></a>
+                            <a style="text-decoration: none;" href="#id-works"><li class="nav-item nav-menu-text">MY WORKS
+                                <hr class="menu-hr">
+                            </li></a>
+                            <a style="text-decoration: none;" href="#id-contacts"><li class="nav-item"> <button class="header-cont-button"><i class="far fa-address-book"></i>
+                                    CONTACTS</button> </li></a>
+                        </div>
+                    </ul>
+                </navbar>
+            </div>
+            <div class="header-body" id="id-main">
+                <div class="header-title">
+                    <p class="title-text">MY<span> PORTFOLIO</span></p>
+                </div>
+                <div class="header-desc">
+                    <div class="vertborder"></div>
+                    <p class="header-desc-text">
+                        If you are reading this text, you have already seen one of my works. This portfolio was made
+                        entirely by me: from design to development itself. Below you can view the rest of my work.
+                    </p>
+                </div>
+                <div class="lang-switch d-flex align-items-center">
+                    <i class="fas fa-globe-americas"></i> РУССКИЙ
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MY SKILLS -->
+    <section class="skills" id="id-skills">
+        <div class="container-fluid">
+            <div class="skills-title">
+                <p class="title-text">WHY<span> ME?</span></p>
+            </div>
+            <div class="skills-cards d-flex">
+                <div class="skill-card row">
+                    <img src="img/ico/design.svg" alt="">
+                    <p class="skill-card-title">DESIGN</p>
+                    <p class="skill-card-text">I develop designs for projects of my customers, if they do not have a
+                        ready-made solution.</p>
+                    <p class="skill-card-title-2">What can I do:</p>
+                    <p class="skill-card-text-2">UI / UX, development of design, logos</p>
+                </div>
+
+                <div class="skill-card row">
+                    <img src="img/ico/frontend.svg" alt="">
+                    <p class="skill-card-title">FRONT-END DEVELOPER</p>
+                    <p class="skill-card-text">I am a web developer, I really love to create projects and implement
+                        clients' ideas.</p>
+                    <p class="skill-card-title-2">The languages ​​I use are:</p>
+                    <p class="skill-card-text-2">HTML, CSS, jQuery</p>
+                </div>
+
+                <div class="skill-card row">
+                    <img src="img/ico/handshake.svg" alt="">
+                    <p class="skill-card-title">AN APPROACH</p>
+                    <p class="skill-card-text">I have an individual approach to each order. I always try to make my
+                        customer happy.</p>
+                    <p class="skill-card-title-2">My experience:</p>
+                    <p class="skill-card-text-2">UI / UX, design, WEB - developing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MY WORKS-->
+    <section class="works" id="id-works">
+        <div class="container-fluid">
+            <div class="works-title">
+                <p class="title-text">MY<span> WORKS</span></p>
+            </div>
+            <div class="work-category">
+                <button style="outline: none;" id="all-button">All</button>
+                <button style="outline: none;" id="dev-button">Development</button>
+                <button style="outline: none;" id="design-button">Design</button>
+            </div>
+            <div class="work-cards d-flex">
+                <div class="work-card develop">
+                    <a target="_blank" href="myworks/EasyMind/index.html"><img class="work-img" src="img/cards/easymind.JPG" alt="">
+                        <p class="card-text">EasyMind <br><span class="card-text-desc ">Website Development</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div></a>
+                </div>
+                <div class="work-card develop">
+                    <img class="work-img" src="img/cards/denuvo.JPG" alt="">
+                        <p class="card-text">DenuvoGame <br><span class="card-text-desc ">Website Development</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div>
+                </div>
+                <div class="work-card develop">
+                    <img class="work-img" src="img/cards/waxom.JPG" alt="">
+                        <p class="card-text">Waxom <br><span class="card-text-desc ">Website Development</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div>
+                </div>
+            </div>
+            <div class="work-cards d-flex">
+                <a target="_blank" href="http://exodusdg.github.io/"><div class="work-card design">
+                    <img class="work-img" src="img/cards/portfolio.JPG" alt="">
+                        <p class="card-text">Exodus` <br><span class="card-text-desc ">Portfolio Development</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div></a>
+                </div>
+                <a target="_blank" href="myworks/EasyMind/index.html"><div class="work-card design">
+                    <img class="work-img" src="img/cards/easymind.JPG" alt="">
+                        <p class="card-text">EasyMind <br><span class="card-text-desc ">Website Design</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div></a>
+                </div>
+                <div class="work-card design">
+                    <a target="_blank" href="http://exodusdg.github.io/"><img class="work-img" src="img/cards/portfolio.JPG" alt="">
+                        <p class="card-text">Exodus` <br><span class="card-text-desc ">Portfolio Design</span></p>
+                        <div class="card-done">
+                            <img src="img/ico/done-ico.png" alt="">
+                        </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--CONTACTS-->
+    <serction class="contacts" id="id-contacts">
+        <div class="container-fluid">
+            <div class="contacts-title">
+            <p class="title-text">MY<span> CONTACTS</span></p> 
+            </div>
+            <div class="contacts-cards d-flex">
+                <div class="contacts-card">
+                    <img class="contact-logo" src="img/logo-contact.png" alt="">
+                    <p class="contact-card-text">TELEGRAM</p>
+                    <img class="cont-platform-ico" src="img/ico/tg-ico.png" alt="">
+                </div>
+                <div class="contacts-card">
+                    <img class="contact-logo" src="img/logo-contact.png" alt="">
+                    <p class="contact-card-text">VKONTAKTE</p>
+                    <img class="cont-platform-ico" src="img/ico/vk-ico.png" alt="">
+                </div>
+                <div class="contacts-card ">
+                    <img class="contact-logo" src="img/logo-contact.png" alt="">
+                    <p class="contact-card-text">GITHUB.IO</p>
+                    <img class="cont-platform-ico" src="img/ico/github-ico.png" alt="">
+                </div>
+            </div>
+        </div>
+    </serction>
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="footer-left">
+                <img class="footer-logotype" src="img/logotype.png" alt="">
+                <div class="footer-contacts d-flex">
+                    <a target="_blank" href="https://github.com/ExodusDG"><img src="img/ico/github.png" alt=""></a>
+                    <a target="_blank" href="https://vk.com/exodus_dg"><img src="img/ico/vkontakte.png" alt=""></a>
+                    <a target="_blank" href="https://t.me/pyro_exodus"><img src="img/ico/telegram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <ul>
+                    <li class="footer-navigation">Navigation</li>
+                    <li><a style="text-decoration: none;color: white;" href="#id-main">Main</a></li>
+                    <li><a style="text-decoration: none;color: white;" href="#id-skills">My Skills</a></li>
+                    <li><a style="text-decoration: none;color: white;" href="#id-works">My Works</a></li>
+                    <li><a style="text-decoration: none;color: white;" href="#id-contacts">My Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
