@@ -1,5 +1,4 @@
 @import 'adaptive.css';
-
 .body {
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
 /*SLIDER IMAGE*/
 
 .slide1 {
-    background-image: url(/img/bg-1.jpg);
+    background-image: url(../img/bg-1.jpg);
     height: 50vw;
     width: 100vw;
     background-repeat: no-repeat;
@@ -20,7 +19,7 @@
 }
 
 .slide2 {
-    background-image: url(/img/bg-2.jpg);
+    background-image: url(../img/bg-2.jpg);
     height: 50vw;
     width: 100vw !important;
     background-repeat: no-repeat;
@@ -28,8 +27,9 @@
     margin: 0 auto;
     background-size: cover;
 }
+
 .slide3 {
-    background-image: url(/img/bg-3.jpg);
+    background-image: url(../img/bg-3.jpg);
     height: 50vw;
     width: 100vw !important;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@
     margin: 0 auto;
     background-size: cover;
 }
+
 
 /*HEADER*/
 
@@ -66,7 +67,7 @@
     background-position: 0 100%;
     height: 50vw;
     right: 3.5vw;
-    background: url(/img/header-effect.png);
+    background: url(../img/header-effect.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 1vw;
@@ -169,9 +170,11 @@
     transform-origin: bottom;
     cursor: pointer;
 }
+
 .header-down-button img {
     width: 3vw;
 }
+
 .arrow-anim {
     animation-name: arrow-anim;
     animation-timing-function: ease;
@@ -448,7 +451,7 @@
 .review-body-line {
     width: 0vw;
     height: 0.5vw;
-    bottom: 0.0vw;
+    top: 0.3vw;
     position: relative;
     right: 1vw;
     background: #3F53FE;
@@ -481,6 +484,7 @@
     position: relative;
 }
 
+
 /* STATS */
 
 .stats {
@@ -499,7 +503,6 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 0.9vw;
-
     top: 10vw;
     color: white;
 }
@@ -522,6 +525,7 @@
     left: 10vw;
     bottom: 2vw;
 }
+
 .stats__body-card {
     align-items: center;
     vertical-align: baseline;
@@ -530,8 +534,8 @@
 }
 
 .stats__body-card img {
-width: 3.5vw;
-position: relative;
+    width: 3.5vw;
+    position: relative;
     left: 18.75vw;
     top: 11vw;
 }
@@ -569,10 +573,12 @@ position: relative;
 }
 
 .stats__body-card:hover .stats__card-line {
-background: #3F53FE;
+    background: #3F53FE;
 }
 
+
 /*CONTACTS*/
+
 .contacts {
     height: 50vw;
     width: 100vw;
@@ -599,6 +605,7 @@ background: #3F53FE;
     position: relative;
     left: 1.5vw;
 }
+
 .contact__card {
     position: relative;
     top: 6vw;
@@ -632,7 +639,6 @@ background: #3F53FE;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     position: relative;
-    
     text-align: center;
     top: 4vw;
     font-size: 2vw;
@@ -649,10 +655,12 @@ background: #3F53FE;
     top: 4vw;
 }
 
+
 /*HOVER-EFFECTS*/
+
 .contact__card:hover {
-background: #3F52FE;
-color: white;
+    background: #3F52FE;
+    color: white;
 }
 
 .contact__card:hover .fa-telegram-plane {
@@ -662,9 +670,11 @@ color: white;
 .contact__card:hover .fa-facebook-square {
     color: white;
 }
+
 .contact__card:hover .fa-twitter {
     color: white;
 }
+
 
 /*FOOTER*/
 
@@ -680,6 +690,7 @@ color: white;
     padding-top: 10vw;
     padding-left: 15vw;
 }
+
 .footer-text {
     width: 22vw;
     font-size: 1vw;
