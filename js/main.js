@@ -1,15 +1,15 @@
 $(document).ready(function() {
     $('#dev-button').click(function() {
-        $('.develop').show(500);
+        $('.dev').show(500);
         $('.design').hide(500);
     });
     $('#all-button').click(function() {
         $('.design').show(500);
-        $('.develop').show(500);
+        $('.dev').show(500);
     });
     $('#design-button').click(function() {
         $('.design').show(500);
-        $('.develop').hide(500);
+        $('.dev').hide(500);
     });
 });
 $(document).ready(function() {

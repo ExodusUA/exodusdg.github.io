@@ -1,0 +1,879 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+@import 'adaptive.css';
+
+/*HEADER*/
+
+.header {
+    position: absolute;
+    width: 100vw;
+    height: 50vw;
+    left: 0px;
+    top: 0px;
+    background: #222945;
+}
+
+.navbar img {
+    width: 15vw;
+    position: relative;
+    left: 13vw;
+    top: 0.5vw;
+}
+
+.navbar ul {
+    position: relative;
+    right: 10vw;
+}
+
+.navbar li {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    list-style-type: none;
+    position: relative;
+    top: 2vw;
+    line-height: 29px;
+    margin-right: 3vw;
+    color: #FFFFFF;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-hr {
+    color: #FF1469;
+    background: #FF1469;
+    height: 0.1vw;
+    border-radius: 1vw;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.navbar ul>li:hover .header-hr {
+    width: 100%;
+}
+
+.header__body-text {
+    text-align: left;
+    position: relative;
+    right: 4vw;
+    height: 10vw;
+}
+
+.header__body {
+    position: relative;
+    top: 10vw;
+    left: 18vw;
+    color: white;
+}
+
+.header__body-hello {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    position: relative;
+    left: 0.3vw;
+    top: 1.5vw;
+}
+
+.header__body-title {
+    color: #FF1469;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 4.5vw;
+}
+
+.header__body-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 1vw;
+    width: 19vw;
+    padding-bottom: 0.5vw;
+}
+
+.header__body-button {
+    text-transform: uppercase;
+    width: 13vw;
+    height: 3.3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 1.2vw;
+    border: 0.13vw solid #FF1469;
+    border-radius: 1vw;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.header__body-button:hover {
+    background: #FF1469;
+}
+
+.header__body-image {
+    position: relative;
+    bottom: 5vw;
+    left: 2vw;
+}
+
+.header__body-image img {
+    width: 42vw;
+}
+
+
+/*SKILLS*/
+
+.skills {
+    background: linear-gradient(180deg, #222945 0%, #161630 100%);
+    height: 50vw;
+    width: 100vw;
+    top: 50vw;
+    position: relative;
+}
+
+.skills__title {
+    padding-top: 4vw;
+}
+
+.title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.title-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.title-hr {
+    height: 0.15vw;
+    top: 0.5vw;
+    position: relative;
+    width: 0vw;
+    border-radius: 1vw;
+    color: white;
+    background: white;
+    transition: 0.4s;
+}
+
+.skills:hover .title-hr {
+    width: 10vw;
+    background: #FF1469;
+}
+
+.skills-cards {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+    left: 3vw;
+    top: 3vw;
+}
+
+.skills-card {
+    border: 0.09vw solid #FFFFFF;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 38px rgba(0, 0, 0, 0.35));
+    border-radius: 2vw;
+    width: 25vw;
+    height: 30vw;
+    color: white;
+    margin-right: 5vw;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.skills-card img {
+    width: 4vw;
+    position: relative;
+    top: 3vw;
+    margin-bottom: 1vw;
+}
+
+.skills-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+    position: relative;
+    top: 3vw;
+    text-transform: uppercase;
+}
+
+.skills-title-desc {
+    position: relative;
+    top: 3vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 19vw;
+    left: 0.5vw;
+    font-size: 1vw;
+}
+
+.skills-title-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FF1469;
+    position: relative;
+    top: 7vw;
+    font-size: 1.1vw;
+}
+
+.skills-desc-2 {
+    position: relative;
+    top: 7vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    left: 1.3vw;
+    width: 17vw;
+}
+
+.skills-card:hover {
+    border: 0.1vw solid #FF1469;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 56px rgba(255, 20, 105, 0.31);
+}
+
+
+/*WORKS*/
+
+.works {
+    background: linear-gradient(360deg, #2B1D3E 0%, #161630 100%);
+    height: 50vw;
+    width: 100vw;
+    position: relative;
+    top: 50vw;
+}
+
+.title-hr-work {
+    height: 0.15vw;
+    top: 0vw;
+    position: relative;
+    width: 0vw;
+    border-radius: 1vw;
+    color: white;
+    background: white;
+    transition: 0.4s;
+}
+
+.works:hover .title-hr-work {
+    width: 10vw;
+    background: #FF1469;
+}
+
+.work-sorter {
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+}
+
+.work-sorter button {
+    border: 0.1vw solid #FF1469;
+    background: transparent;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: 0.4s;
+    border-radius: 1.5vw;
+    margin-right: 1vw;
+    padding: 0.4vw 1.5vw 0.4vw 1.5vw;
+}
+
+.work-sorter button:hover {
+    background: #FF1469;
+}
+
+.work-cards {
+    position: relative;
+    top: 10vw;
+    left: 10vw;
+    margin-bottom: 1.5vw;
+    width: 80vw;
+}
+
+.work-card {
+    transition: 0.4s;
+    height: 13vw;
+    position: relative;
+    margin-right: 2vw;
+}
+
+.work-card-img {
+    border-radius: 1.5vw;
+    width: 24vw;
+    height: 13vw;
+    transition: 0.4s;
+}
+
+.work-card:hover .work-card-img {
+    filter: brightness(0.3);
+}
+
+.work-card:hover {
+    transform: rotate(2deg) scale(1.1);
+}
+
+.work-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.6vw;
+    color: white;
+    position: relative;
+    bottom: 5.5vw;
+    left: 2vw;
+    display: none;
+}
+
+.work-card-desc {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.3vw;
+    color: white;
+    position: relative;
+    bottom: 6vw;
+    left: 2vw;
+    display: none;
+}
+
+.work-done {
+    position: relative;
+    width: 1.5vw;
+    bottom: 19.5vw;
+    left: 23vw;
+    display: none;
+}
+
+.work-card:hover .work-card-title {
+    display: flex;
+}
+
+.work-card:hover .work-card-desc {
+    display: flex;
+}
+
+.work-card:hover .work-done {
+    display: flex;
+}
+
+
+/*CONTACTS*/
+
+.contacts {
+    background: linear-gradient(360deg, #161630 0%, #2B1D3E 100%);
+    width: 100vw;
+    height: 72vw;
+    position: relative;
+    top: 50vw;
+}
+
+.contacts-title {
+    position: relative;
+    top: 5vw;
+}
+
+.title-hr-contacts {
+    height: 0.15vw;
+    top: 0vw;
+    position: relative;
+    width: 0vw;
+    border-radius: 1vw;
+    color: white;
+    background: white;
+    transition: 0.4s;
+}
+
+.contacts:hover .title-hr-contacts {
+    width: 10vw;
+    background: #FF1469;
+}
+
+.contacts-block {
+    position: relative;
+    top: 20vw;
+    left: 13vw;
+}
+
+.contact {
+    background: transparent;
+    border: 0.15vw solid #FF1469;
+    border-radius: 1.9vw;
+    height: 10vw;
+    width: 23vw;
+    margin-right: 2vw;
+    transition: 0.4s;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 50px rgba(255, 20, 105, 0.46);
+}
+
+.logo-contact {
+    position: relative;
+    top: 2.5vw;
+    width: 18vw;
+    left: 0.5vw;
+}
+
+.contact p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    font-size: 1.2vw;
+    left: 4vw;
+    top: 1.5vw;
+}
+
+.contacts-icon {
+    width: 2.5vw;
+    position: relative;
+    left: 11.1vw;
+    bottom: 7.8vw;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    width: 100vw;
+    left: 5vw;
+    height: 25vw;
+    position: relative;
+    top: 30vw;
+}
+
+.footer-left {
+    position: relative;
+    top: 5vw;
+}
+
+.footer-logotype {
+    width: 20vw;
+    position: relative;
+    left: 10vw;
+    top: 0vw;
+}
+
+.footer-contacts img {
+    width: 3vw;
+    position: relative;
+    left: 10vw;
+    top: 5vw;
+    margin-right: 1vw;
+}
+
+.footer-right {
+    position: relative;
+    left: 65vw;
+    bottom: 2vw;
+}
+
+.footer-right ul>li {
+    list-style-type: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+
+.footer-navigation {
+    color: #FF1469 !important;
+    font-size: 1.8vw !important;
+}
+
+
+/*---------------- ADAPTIVE ----------------*/
+
+@media (max-width: 1700px) {
+    .skills-title-desc {
+        left: 1vw;
+    }
+    .skills-desc-2 {
+        left: 1.8vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contacts-icon {
+        bottom: 8.2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar img {
+        top: 0vw;
+    }
+    .navbar ul {
+        position: relative;
+        top: 1vw;
+    }
+    .header__body {
+        top: 5vw;
+    }
+    .skills-cards {
+        top: 0vw;
+    }
+    .work-sorter {
+        top: 0vw;
+    }
+    .work-cards {
+        top: 3vw;
+    }
+    .contacts-block {
+        top: 15vw;
+    }
+    .contacts-icon {
+        bottom: 9.2vw;
+        left: 11.3;
+    }
+}
+
+@media (max-width: 414px) {
+    /*HEADER*/
+    .navbar img {
+        width: 25vw;
+        top: 0vw;
+        left: 0vw;
+    }
+    .navbar-img-div {
+        position: relative;
+        bottom: 4vw;
+    }
+    .navbar li {
+        font-size: 1.7vw;
+    }
+    .navbar ul {
+        right: 0vw;
+    }
+    .header__body {
+        top: 0vw;
+    }
+    .header {
+        height: 60vw;
+    }
+    .header-body-adaptive {
+        position: relative;
+        bottom: 5vw;
+        right: 9vw;
+    }
+    .header__body-title {
+        font-size: 6vw;
+        position: relative;
+        bottom: 3vw;
+    }
+    .header__body-desc {
+        font-size: 2.5vw;
+        bottom: 6vw;
+        width: 30vw;
+    }
+    .header__body-button {
+        width: 16vw;
+        height: 3.9vw;
+        font-size: 1.5vw;
+        border: 0.09vw solid #FF1469;
+        position: relative;
+        bottom: 10vw;
+    }
+    /*SKILLS*/
+    .skills {
+        top: 60vw;
+        height: 70vw;
+    }
+    .skills-card img {
+        top: 1vw;
+        margin-bottom: 0vw;
+    }
+    .skills-card-title {
+        font-size: 1.5vw;
+        top: 2vw;
+    }
+    .skills-title-desc {
+        top: 0vw;
+    }
+    .skills-title-2 {
+        top: 0vw;
+        font-size: 1.3vw;
+    }
+    .skills-title-2 p {
+        margin-bottom: 0rem !important;
+    }
+    .skills-desc-2 {
+        top: 0vw;
+    }
+    .cards-desc-adaptive {
+        position: relative;
+        bottom: 2vw;
+    }
+    /*WORKS*/
+    .works {
+        top: 60vw;
+        height: 55vw;
+    }
+    /*CONTACTS*/
+    .contacts {
+        height: 75vw;
+        top: 60vw;
+    }
+    .contacts-block {
+        top: 10vw;
+    }
+    .logo-contact {
+        top: 1vw;
+        left: 1vw;
+    }
+    .contact {
+        border: 0.05vw solid #FF1469;
+    }
+    .contacts-icon {
+        bottom: 15.5vw;
+    }
+    .contact p {
+        top: 0vw;
+    }
+    /*FOOTER*/
+    .footer {
+        left: 0vw;
+        top: 20vw;
+    }
+    .footer-right {
+        left: 60vw;
+        bottom: 5vw;
+    }
+}
+
+@media (max-width: 375px) {
+    /*HEADER*/
+    .navbar img {
+        width: 25vw;
+        top: 0vw;
+        left: 0vw;
+    }
+    .navbar-img-div {
+        position: relative;
+        bottom: 4vw;
+    }
+    .navbar li {
+        font-size: 1.7vw;
+    }
+    .navbar ul {
+        right: 0vw;
+    }
+    .header__body {
+        top: 0vw;
+    }
+    .header {
+        height: 60vw;
+    }
+    .header-body-adaptive {
+        position: relative;
+        bottom: 5vw;
+        right: 9vw;
+    }
+    .header__body-title {
+        font-size: 6vw;
+        position: relative;
+        bottom: 3vw;
+    }
+    .header__body-desc {
+        font-size: 2.5vw;
+        bottom: 6vw;
+        width: 30vw;
+    }
+    .header__body-button {
+        width: 16vw;
+        height: 3.9vw;
+        font-size: 1.5vw;
+        border: 0.09vw solid #FF1469;
+        position: relative;
+        bottom: 10vw;
+    }
+    /*SKILLS*/
+    .skills {
+        top: 60vw;
+        height: 70vw;
+    }
+    .skills-card img {
+        top: 1vw;
+        margin-bottom: 0vw;
+    }
+    .skills-card-title {
+        font-size: 1.5vw;
+        top: 2vw;
+    }
+    .skills-title-desc {
+        top: 0vw;
+    }
+    .skills-title-2 {
+        top: 0vw;
+        font-size: 1.3vw;
+    }
+    .skills-title-2 p {
+        margin-bottom: 0rem !important;
+    }
+    .skills-desc-2 {
+        top: 0vw;
+    }
+    .cards-desc-adaptive {
+        position: relative;
+        bottom: 2vw;
+    }
+    /*WORKS*/
+    .works {
+        top: 60vw;
+        height: 55vw;
+    }
+    /*CONTACTS*/
+    .contacts {
+        height: 75vw;
+        top: 60vw;
+    }
+    .contacts-block {
+        top: 10vw;
+    }
+    .logo-contact {
+        top: 1vw;
+        left: 1vw;
+    }
+    .contact {
+        border: 0.05vw solid #FF1469;
+    }
+    .contacts-icon {
+        bottom: 15.5vw;
+    }
+    .contact p {
+        top: 0vw;
+    }
+    /*FOOTER*/
+    .footer {
+        left: 0vw;
+        top: 20vw;
+    }
+    .footer-right {
+        left: 60vw;
+        bottom: 5vw;
+    }
+}
+
+@media (max-width: 250px) {
+    /*HEADER*/
+    .navbar img {
+        width: 25vw;
+        top: 0vw;
+        left: 0vw;
+    }
+    .navbar-img-div {
+        position: relative;
+        bottom: 4vw;
+    }
+    .navbar li {
+        font-size: 1.7vw;
+    }
+    .navbar ul {
+        right: 0vw;
+    }
+    .header__body {
+        top: 0vw;
+    }
+    .header {
+        height: 60vw;
+    }
+    .header-body-adaptive {
+        position: relative;
+        bottom: 5vw;
+        right: 9vw;
+    }
+    .header__body-title {
+        font-size: 6vw;
+        position: relative;
+        bottom: 3vw;
+    }
+    .header__body-desc {
+        font-size: 2.5vw;
+        bottom: 6vw;
+        width: 30vw;
+    }
+    .header__body-button {
+        width: 16vw;
+        height: 3.9vw;
+        font-size: 1.5vw;
+        border: 0.09vw solid #FF1469;
+        position: relative;
+        bottom: 10vw;
+    }
+    /*SKILLS*/
+    .skills {
+        top: 60vw;
+        height: 70vw;
+    }
+    .skills-card img {
+        top: 1vw;
+        margin-bottom: 0vw;
+    }
+    .skills-card-title {
+        font-size: 1.5vw;
+        top: 2vw;
+    }
+    .skills-title-desc {
+        top: 0vw;
+    }
+    .skills-title-2 {
+        top: 0vw;
+        font-size: 1.3vw;
+    }
+    .skills-title-2 p {
+        margin-bottom: 0rem !important;
+    }
+    .skills-desc-2 {
+        top: 0vw;
+    }
+    .cards-desc-adaptive {
+        position: relative;
+        bottom: 2vw;
+    }
+    /*WORKS*/
+    .works {
+        top: 60vw;
+        height: 55vw;
+    }
+    /*CONTACTS*/
+    .contacts {
+        height: 75vw;
+        top: 60vw;
+    }
+    .contacts-block {
+        top: 10vw;
+    }
+    .logo-contact {
+        top: 1vw;
+        left: 1vw;
+    }
+    .contact {
+        border: 0.05vw solid #FF1469;
+    }
+    .contacts-icon {
+        bottom: 15.5vw;
+    }
+    .contact p {
+        top: 0vw;
+    }
+    /*FOOTER*/
+    .footer {
+        left: 0vw;
+        top: 20vw;
+    }
+    .footer-right {
+        left: 60vw;
+        bottom: 5vw;
+    }
+}
