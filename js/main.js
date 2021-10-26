@@ -62,18 +62,9 @@ window.addEventListener("mousewheel", function(e) {
 var bodyWidth = $('body').width()
 
 if (bodyWidth < 1024) {
-    window.addEventListener("scroll", function(e) {
-        wDelta = e.wheelDelta < 0 ? 'down' : 'up';
-        if (isActive == true) {
-            if (wDelta == 'down') {
-                scrollRight()
-            } else {
-                scrollLeft()
-            }
-        } else {
-            return false;
-        }
-    }, { passive: false });
+    window.addEventListener("touchmove", function(e) {
+        scrollRight()
+    });
 }
 
 function scrollRight() {
