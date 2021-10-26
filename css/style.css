@@ -830,6 +830,10 @@ a {
         right: 10px;
         bottom: 10px;
     }
+    .main__body_desc {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
 
 @media (max-width: 430px) {

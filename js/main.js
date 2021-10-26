@@ -47,7 +47,6 @@ var isActive = true;
 
 window.addEventListener("mousewheel", function(e) {
     wDelta = e.wheelDelta < 0 ? 'down' : 'up';
-
     if (isActive == true) {
         if (wDelta == 'down') {
             scrollRight()
@@ -58,6 +57,24 @@ window.addEventListener("mousewheel", function(e) {
         return false;
     }
 }, { passive: false });
+
+
+var bodyWidth = $('body').width()
+
+if (bodyWidth < 1024) {
+    window.addEventListener("scroll", function(e) {
+        wDelta = e.wheelDelta < 0 ? 'down' : 'up';
+        if (isActive == true) {
+            if (wDelta == 'down') {
+                scrollRight()
+            } else {
+                scrollLeft()
+            }
+        } else {
+            return false;
+        }
+    }, { passive: false });
+}
 
 function scrollRight() {
     currentSlide = currentSlide + 1;
