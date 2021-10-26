@@ -834,6 +834,14 @@ a {
         font-size: 25px;
         line-height: 35px;
     }
+    html,
+    body {
+        overflow-y: scroll !important;
+    }
+    .main {
+        overflow: hidden;
+        max-height: 90vh;
+    }
 }
 
 @media (max-width: 430px) {
