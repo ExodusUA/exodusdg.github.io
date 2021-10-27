@@ -26,7 +26,7 @@ if ($('body').attr('id') == 'admin') {
         method: 'get',
         dataType: 'json',
         async: false,
-        data: 'Check IP list',
+        data: '',
         success: function(data) {
             if (data.status == 'IP allowed!') {
                 console.log('DONE!')
