@@ -4,7 +4,7 @@ $('.auth__button').click(function() {
         password: $('#password').val()
     }
     $.ajax({
-        url: 'http://127.0.0.1:3000/auth',
+        url: 'https://exodusdg.github.io/auth',
         method: 'get',
         dataType: 'json',
         async: false,
@@ -22,7 +22,7 @@ $('.auth__button').click(function() {
 
 if ($('body').attr('id') == 'admin') {
     $.ajax({
-        url: 'http://127.0.0.1:3000/admin',
+        url: 'https://exodusdg.github.io/admin',
         method: 'get',
         dataType: 'json',
         async: false,
@@ -38,7 +38,7 @@ if ($('body').attr('id') == 'admin') {
 
 $('#logout').click(function() {
     $.ajax({
-        url: 'http://127.0.0.1:3000/logout',
+        url: 'https://exodusdg.github.io/logout',
         method: 'get',
         dataType: 'json',
         async: false,
