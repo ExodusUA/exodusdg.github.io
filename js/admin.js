@@ -11,7 +11,6 @@ $('.auth__button').click(function() {
         data: userData,
         success: function(data) {
             console.log(data)
-
             if (data.status == 'Done!') {
                 $(location).attr('href', 'https://exodusdg.github.io/admin');
             }
