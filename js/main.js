@@ -1,3 +1,10 @@
+/* SERVER */
+var referrer_url = document.referrer;
+console.log(referrer_url); // вот ваша строка
+
+/* END */
+
+
 $('.portfolio__card').hover(function() {
     $(this).find('.portfolio__card_mask').css('opacity', '1')
 }, function() {
@@ -113,6 +120,8 @@ function scrollRight() {
         isActive = true;
     }, 1000);
 }
+
+
 
 function scrollLeft() {
     currentSlide = currentSlide - 1;
