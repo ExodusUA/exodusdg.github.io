@@ -13,8 +13,7 @@ $('.auth__button').click(function() {
             console.log(data)
 
             if (data.status == 'Done!') {
-                var url = "/admin.html";
-                $(location).attr('href', url);
+                $(location).attr('href', 'https://exodusdg.github.io/admin');
             }
         }
     });
