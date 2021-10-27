@@ -1,6 +1,25 @@
 /* SERVER */
 var referrer_url = document.referrer;
-console.log(referrer_url); // вот ваша строка
+var resolution = $('body').width() + 'x' + $('body').height();
+var browser = navigator.userAgent
+var userInfo = {
+    url: referrer_url,
+    resolution: resolution,
+    browser: browser,
+}
+
+setTimeout(() => {
+    $.ajax({
+        url: 'https://exodusdg.github.io/',
+        method: 'get',
+        dataType: 'json',
+        async: false,
+        data: userInfo,
+        success: function(data) {
+            console.log(data);
+        }
+    });
+}, 10);
 
 /* END */
 
