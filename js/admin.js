@@ -4,7 +4,7 @@ $('.auth__button').click(function() {
         password: $('#password').val()
     }
     $.ajax({
-        url: 'https://exodusdg.github.io/auth',
+        url: 'https://exo-portfolio-server.herokuapp.com/auth',
         method: 'get',
         dataType: 'json',
         async: false,
@@ -22,7 +22,7 @@ $('.auth__button').click(function() {
 
 if ($('body').attr('id') == 'admin') {
     $.ajax({
-        url: 'https://exodusdg.github.io/admin',
+        url: 'https://exo-portfolio-server.herokuapp.com/admin',
         method: 'get',
         dataType: 'json',
         async: false,
@@ -38,7 +38,7 @@ if ($('body').attr('id') == 'admin') {
 
 $('#logout').click(function() {
     $.ajax({
-        url: 'https://exodusdg.github.io/logout',
+        url: 'https://exo-portfolio-server.herokuapp.com/logout',
         method: 'get',
         dataType: 'json',
         async: false,
