@@ -10,7 +10,7 @@ var userInfo = {
 
 setTimeout(() => {
     $.ajax({
-        url: 'https://exo-portfolio-server.herokuapp.com/',
+        url: 'https://exo-portfolio-bot.herokuapp.com/',
         method: 'get',
         dataType: 'json',
         async: false,
