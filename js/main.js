@@ -7,7 +7,6 @@ var userInfo = {
     resolution: resolution,
     browser: browser,
 }
-
 setTimeout(() => {
     $.ajax({
         url: 'https://exo-portfolio-server.herokuapp.com/',
@@ -20,7 +19,6 @@ setTimeout(() => {
         }
     });
 }, 10);
-
 /* END */
 
 
