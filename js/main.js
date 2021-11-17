@@ -1,27 +1,3 @@
-/* SERVER */
-var referrer_url = document.referrer;
-var resolution = $('body').width() + 'x' + $('body').height();
-var browser = navigator.userAgent
-var userInfo = {
-    url: referrer_url,
-    resolution: resolution,
-    browser: browser,
-}
-setTimeout(() => {
-    $.ajax({
-        url: 'https://exo-portfolio-server.herokuapp.com/',
-        method: 'get',
-        dataType: 'json',
-        async: false,
-        data: userInfo,
-        success: function(data) {
-            console.log(data);
-        }
-    });
-}, 10);
-/* END */
-
-
 $('.portfolio__card').hover(function() {
     $(this).find('.portfolio__card_mask').css('opacity', '1')
 }, function() {
@@ -205,3 +181,28 @@ $('.contact__links_item').hover(function() {
     $(this).find('.contact__item_title').css('display', 'none')
     $(this).find('.contact__items_circle').css('display', 'none')
 })
+
+/* SERVER */
+/*
+var referrer_url = document.referrer;
+var resolution = $('body').width() + 'x' + $('body').height();
+var browser = navigator.userAgent
+var userInfo = {
+    url: referrer_url,
+    resolution: resolution,
+    browser: browser,
+}
+setTimeout(() => {
+    $.ajax({
+        url: 'https://exo-portfolio-server.herokuapp.com/',
+        method: 'get',
+        dataType: 'json',
+        async: false,
+        data: userInfo,
+        success: function(data) {
+            console.log(data);
+        }
+    });
+}, 10);
+*/
+/* END */
