@@ -34505,3 +34505,25 @@ body:not(.doc_ready) .hero_collage_button--right {
         margin-bottom: 0;
     }
 }
+
+.landing_hero_content .content_wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.landing_hero_content {
+    justify-content: space-between;
+}
+
+.client_logo_carousel-image_wrapper img {
+    scale: 2.2;
+}
+
+@media (max-width: 1440px) {
+    .vert_pad--reduced_top {
+        padding-top: 250px;
+    }
+    #creative-lottie {
+        width: 600px;
+    }
+}
