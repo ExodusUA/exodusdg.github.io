@@ -34525,11 +34525,21 @@ body:not(.doc_ready) .hero_collage_button--right {
     }
     #creative-lottie {
         width: 600px;
+        position: relative;
+        left: 150px;
+        scale: 1.1;
     }
     .api_overview .section-2_col_cell--image {
         height: 480px;
     }
     .api_overview .section-2_col_wrapper {
         margin-bottom: 0vw;
+    }
+}
+
+@media (max-width: 600px) {
+    #creative-lottie {
+        width: 100%;
+        left: 0px;
     }
 }
